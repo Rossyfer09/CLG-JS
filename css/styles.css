@@ -1,0 +1,33 @@
+
+
+#heading {
+    padding: 10px;
+    background-color: #e2fdb5;
+    font-weight: 600;
+    font-size: x-large;
+    width: 100%;
+}
+
+#container {
+    width: 100%;
+    margin: 5%;
+}
+
+
+button {
+	background-color: rgb(143, 202, 151);
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+}
+
+#imgEncanto{
+    margin-top: 5%;
+    width: 300px;
+    height: 200px;
+
+}
