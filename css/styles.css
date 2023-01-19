@@ -1,33 +1,64 @@
-
-
-#heading {
-    padding: 10px;
-    background-color: #e2fdb5;
-    font-weight: 600;
+.name {
+    font-weight: 800;
     font-size: x-large;
-    width: 100%;
+    width: 80%;
+    text-align: center;
+}
+
+.heading {
+    background-color: #e2fdb5;
+    font-weight: 400;
+    font-size: x-large;
+    width: 80%;
+    text-align: center;
 }
 
 #container {
-    width: 100%;
-    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-self: normal;
+    justify-content: center;
+    margin: 2px;
+    padding: 10px;
+
+    border: rgb(0, 0, 0)
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 40%;
+    margin: 0 auto;
+    border: solid rgba(202, 88, 73, 0.432)
+}
 
 button {
-	background-color: rgb(143, 202, 151);
-	border: 0;
-	border-radius: 4px;
-	color: #fff;
-	font-size: 18px;
-	padding: 10px;
-	margin: 10px;
-	width: 300px;
+    background-color: #b8715449;
+    border: white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
 }
 
-#imgEncanto{
-    margin-top: 5%;
-    width: 300px;
-    height: 200px;
+img {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.fixed-footer {
+
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    color: rgb(12, 11, 11);
+    text-align: start;
 
 }
