@@ -1,7 +1,7 @@
 body{
     
     font-family: 'Times New Roman', Times, serif;
-   
+        
 }
 
 #banner{
@@ -32,7 +32,9 @@ body{
     margin: 5px;
     padding: 10px;
     border: rgb(0, 0, 0);
-    width:90%
+    width:90%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .box{
@@ -44,7 +46,7 @@ body{
     height: 40%;
     margin: 5px;
     border: solid rgba(226, 162, 154, 0.432);
-    background-color:rgb(73,214,171);
+    background-color:rgb(56, 216, 168);
     border-radius: 5px;
 }
 
@@ -76,12 +78,23 @@ button {
 
 
 #facts{
- font-family: 'Merriweather', serif;
+    font-family: sans-serif;
+ /*font-family: 'Merriweather', serif;*/
  font-size: 30px; 
  margin: 10px;
  color: white;
+ justify-content: center;
 }
 
+p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
 .fixed-footer {
 
     position: relative;
