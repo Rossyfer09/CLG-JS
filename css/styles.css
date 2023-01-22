@@ -6,7 +6,7 @@ body{
 
 #banner{
     position: relative;
-    background-color: rgb(31,178,223);
+    /*background-color: rgb(31,178,223);*/
     text-align: center;
     padding: 10px 10px;
     font-weight: 800;
@@ -20,8 +20,7 @@ body{
 
 .heading {
     font-size: 15px;
-    /*width: 100%;
-    text-align: center;*/
+ 
 }
 
 #container{
@@ -46,7 +45,9 @@ body{
     height: 40%;
     margin: 5px;
     border: solid rgba(226, 162, 154, 0.432);
-    background-color:rgb(56, 216, 168);
+   /* background-color:rgb(56, 216, 168); rgb(68,138,144)*/
+   background-color:rgb(108,169,114);
+   
     border-radius: 5px;
 }
 
@@ -67,7 +68,8 @@ button {
     display: inline-block;
     margin: 20px;
     padding: 10px;
-    background-color: #FC9601;
+    /*background-color: #FC9601;*/
+    background-color: rgb(202,208,85);
     border: none;
     border-radius: 5px;
     color: white;
