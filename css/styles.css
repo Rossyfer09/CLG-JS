@@ -1,7 +1,7 @@
 body{
     
-    font-family: 'Times New Roman', Times, serif;
-        
+    /*font-family: Fantasy,'Times New Roman', Times, serif;*/
+     /*background-color: darkgrey; */  
 }
 
 #banner{
@@ -19,7 +19,9 @@ body{
 }
 
 .heading {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
+    color: black;
  
 }
 
@@ -28,9 +30,10 @@ body{
     flex-direction: column;
     align-self: center;
     justify-content: center;
-    margin: 5px;
-    padding: 10px;
+    margin: auto;
+    padding: 5px;
     border: rgb(0, 0, 0);
+    max-width: 1280px;
     width:90%;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +50,6 @@ body{
     border: solid rgba(226, 162, 154, 0.432);
    /* background-color:rgb(56, 216, 168); rgb(68,138,144)*/
    background-color:rgb(108,169,114);
-   
     border-radius: 5px;
 }
 
@@ -57,6 +59,7 @@ body{
     align-items: center;
     justify-content: center;
     max-height: 500px;
+    min-height: 450px;
     width: 90%;
     height: 50%;
     margin: 0 auto;
@@ -69,7 +72,7 @@ button {
     margin: 20px;
     padding: 10px;
     /*background-color: #FC9601;*/
-    background-color: rgb(202,208,85);
+    background-color: rgb(171,199,105);
     border: none;
     border-radius: 5px;
     color: white;
@@ -88,13 +91,14 @@ button {
  justify-content: center;
 }
 
-p{
+p, div{
     font-family: sans-serif;
     color: white;
     font-size: 20px;
     padding: 10px;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 
 }
 .fixed-footer {
