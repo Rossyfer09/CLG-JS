@@ -19,7 +19,16 @@ function getdarkMode(){
             darkBtn.style.color = "white";
           }
     });
+    let banner = document.getElementsByClassName("banner")[0];
+    if (document.body.classList.contains("dark-mode")) {
+      banner.style.backgroundImage = "url('/image/banner2d.jpg')";
+    } else {
+      banner.style.backgroundImage = "url('/image/banner2.jpg')";
+    }
     };
+
+
+
     // learning what toggle does
     /* if (element.classList.contains("dark-mode")){
      element.classList.remove("dark-mode");

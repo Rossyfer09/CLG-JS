@@ -8,7 +8,7 @@ body{
 
 
 
-#banner{
+.banner{
     position: relative;
     display: flex;
     flex-wrap:wrap;
@@ -82,7 +82,8 @@ body{
     align-items: center;
     justify-content: center;
     max-height: 500px;
-    min-height: 450px;
+    min-height: 100px;
+    max-width: 500px;
     width: 90%;
     height: 50%;
     margin: 0 auto;
@@ -118,12 +119,9 @@ button:hover {
 }
 
 
-#banner.dark-mode {
-    display: none;
-}
 
 @media (max-width: 650px) {
-    #banner {
+    .banner {
     display:none;
     padding: 0;
     }
