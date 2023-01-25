@@ -1,5 +1,37 @@
 alert ("Prepare to be smitten! This page is packed with ultra-cute pictures that'll make your heart melt. Warning: cuteness overload!");
 
+const darkBtn = document.getElementById("darkBtn");
+const elements = [...document.querySelectorAll("#banner, body, .box, .heading, button")];
+
+
+darkBtn.addEventListener("click",getdarkMode);
+
+function getdarkMode(){
+    
+    elements.forEach(function(element) {
+        element.classList.toggle("dark-mode");
+        if (element.classList.contains("dark-mode")) {
+            darkBtn.innerHTML = "Light Mode";
+            /*darkBtn.style.backgroundColor = "white";*/
+            darkBtn.style.color = "black";
+          } else {
+            darkBtn.innerHTML = "Dark Mode";
+            darkBtn.style.color = "white";
+          }
+    });
+    };
+    // learning what toggle does
+    /* if (element.classList.contains("dark-mode")){
+     element.classList.remove("dark-mode");
+   
+    } 
+    else{
+    element.classList.add("dark-mode");
+   };
+});*/
+
+ 
+
 //get random pic of my dog from a local folder
 const randomButton = document.getElementById('randomButton');
 const imgEncanto = document.getElementById('imgEncanto');
